@@ -3,17 +3,17 @@ pipeline {
   stages {
     stage('compile') {
       steps {
-        bat 'echo hi'
+        bat 'echo compile hi'
       }
     }
     stage('utest') {
       steps {
-        bat 'echo hi'
+        bat 'echo utest hi'
       }
     }
     stage('deploy') {
       steps {
-        bat 'echo "hi"'
+        bat 'echo deploy hi'
       }
     }
   }
